@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cartão de Perfil</title>
+  <style>
+    .cartao {
+      width: 300px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 40px auto;
+      box-sizing: border-box;
+      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .cartao img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .cartao h2 {
+      margin: 0;
+      font-size: 22px;
+      color: #333;
+    }
+
+    .cartao p {
+      font-size: 14px;
+      color: #555;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cartao">
+    <img src="data:image/png;base64,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
+    AAElFTkSuQmCC" alt="Foto de perfil">
+    <h2>Felipe padilha</h2>
+    <p>Estudande de TI modulo1 e estudande do ensino medio 1° ano </p>
+  </div>
+
+</body>
+</html>
